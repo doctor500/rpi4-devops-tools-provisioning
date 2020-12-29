@@ -8,9 +8,10 @@ List of tools:
 1. Jenkins CI
 
 # Jenkins CI
-## Key features
+Key features
 - Latest LTS version
 - Ready to use / less config (JCasC)
+
 
 ## Quick Start
 Go inside `jenkins` folder and run the docker compose command
@@ -20,6 +21,7 @@ cd ./jenkins
 ```bash
 docker-compose up
 ```
+
 
 ## Update/Reload Config `casc.yaml`
 The configuration in `casc.yaml` will not change immediately when you update this file. If you want to update, you can enter the menu **Manage Jenkins** > **Configuration as Code** and click **Reload existing configuration** button
